@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hernandezyasociados.pages.dev/sitemap.xml
