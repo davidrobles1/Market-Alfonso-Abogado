@@ -75,7 +75,7 @@ Aurea es lo único que pide tipografías a Google, y solo cuando se activa.
 |---|---|
 | Teléfono y WhatsApp | busca `525587945383` en `index.html` (y regenera el QR) |
 | Servicios de cada área | bloques `<article class="card">` |
-| Dirección del despacho | `tile tile--pend` de «Ubicación del despacho» |
+| Dirección del despacho | `streetAddress` del JSON-LD y el `tile` de Maps en «Contacto» (texto y enlace) |
 | Retrato sin duotono | sustituye `retrato.jpg` |
 | Fotos de la galería | bloques `<figure class="ph">` en `#galeria`; la imagen va en `galeria/` |
 | Quitar «Notas de revisión» | borra el `<dialog id="notes">` y el botón `data-notes` |
